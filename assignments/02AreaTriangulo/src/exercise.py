@@ -1,9 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
-    b = float(input('Ingresa medida de la base:'))
-    h = float(input('Ingresa medida de la altura: '))
+    b = int(input('Dame la base: '))
+    a = int(input('Dame la altura: '))
 
-    area = (b*h)/2
-    print('el area es: '+ str(area))
+    area= (b*a)/2
+    print ('El área es: '+ str(area))
+
+
+
 if __name__ == '__main__':
     main()
